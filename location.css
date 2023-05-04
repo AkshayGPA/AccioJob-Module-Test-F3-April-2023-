@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 * {
-  margin: 0 0 2rem 0;
+  margin: 0 0 0rem 0;
   font-family: 'Inter', sans-serif;
+}
+
+body {
+  margin-bottom: 4rem;
 }
 
 #heading {
@@ -12,25 +16,26 @@
 }
 
 #upper-details-flex {
-  margin: 2rem 2.5rem 1rem 2.5rem;
+  margin: 1rem 2.5rem;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  padding: 1rem 0;
 }
 
 .upper-flex-pairs {
-  margin: 0.1rem 18rem 0.1rem 0;
+  margin: 0.1rem 18rem 0.5rem 0;
   /* border: 1px  solid black; */
 }
 
 .upper-flex-items {
   font-size: 1.3rem;
   font-weight: 600;
-  padding: 0.3rem;
+  margin: 0 0 0.7rem 0;
 }
 
 #map-display {
-  margin: 2rem auto;
+  margin: 1rem auto;
   width: 93%;
   height: 35rem;
   border: 1px solid black;
@@ -82,6 +87,7 @@ span {
   border-radius: 0.3rem;
   padding: 1rem;
   width: 30rem;
+  margin: 1rem 0;
 }
 
 .details {
