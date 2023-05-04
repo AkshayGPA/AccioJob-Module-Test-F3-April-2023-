@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+  margin: 0 0 2rem 0;
+  font-family: 'Inter', sans-serif;
+}
+
+#heading {
+  font-size: 3rem;
+  margin: 2.5rem 0 1rem 2.5rem;
+  
+}
+
+#upper-details-flex {
+  margin: 2rem 2.5rem 1rem 2.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.upper-flex-pairs {
+  margin: 0.1rem 18rem 0.1rem 0;
+  /* border: 1px  solid black; */
+}
+
+.upper-flex-items {
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 0.3rem;
+}
+
+#map-display {
+  margin: 2rem auto;
+  width: 93%;
+  height: 35rem;
+  border: 1px solid black;
+}
+
+#additional-data {
+  margin: 2rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.secondary-data {
+  padding: 0.3rem;
+  margin: 0.5rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+/* Changing default font weight of all spans */
+span {
+  font-weight: 400;
+}
+
+#search-box {
+  margin-left: 2.5rem;
+  height: 3rem;
+  width: 93.5%;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 0.3rem;
+
+  background: url(Imges/search.png) no-repeat;
+  background-size: 1.2rem;
+  background-position-x: 10px;
+  background-position-y: center;
+  padding-left: 2.5rem;
+}
+
+#details-tile-flex {
+  margin: 2rem 2.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.details-tiles {
+  border: 2px solid black;
+  border-radius: 0.3rem;
+  padding: 1rem;
+  width: 30rem;
+}
+
+.details {
+  margin-bottom: 1.5rem;
+}
