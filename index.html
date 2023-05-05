@@ -9,8 +9,14 @@
 </head>
 <body>
   <h1 id="heading">My Public IP Address:</h1>
-  <h2><a href="location.html">Click here</a></h2>
   <button id="get-details" type="submit">Get Data</button>
-  <script src="index.js"></script>
+  <script src="index.js">
+    let ip = 'initial'
+
+    $.getJSON("https://api.ipify.org?format=json", function (data) {
+      ip = data.ip
+      window.localStorage.setItem('ip', ip);
+    })
+  </script>
 </body>
 </html>

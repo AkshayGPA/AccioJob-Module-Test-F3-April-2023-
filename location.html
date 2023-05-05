@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="location.css">
 </head>
 <body>
-  <h1 id="heading">My Public IP Address:</h1>
+  <h1 id="heading">My Public IP Address: <span id="ip"></span></h1>
   <div id="upper-details-flex">
     <div class="upper-flex-pairs">
       <p class="upper-flex-items">Lat: <span id="latitude"></span></p>
@@ -32,59 +32,20 @@
     <p class="secondary-data"> Time Zone: <span id="time-zone"></p>
     <p class="secondary-data"> Date and Time: <span id="date-time"></p>
     <p class="secondary-data"> Pincode: <span id="pincode"></p>
-    <p class="secondary-data"> Message: <span>Number of pincode(s) found: </span><span id="message"></p>
+    <p class="secondary-data"> Message: <span id="message"></p>
   </div>
 
   <input type="text" id="search-box" name="search-box">
 
   <div id="details-tile-flex">
-    <div class="details-tiles">
-      <p class="details">Name</p>
-      <p class="details">Branch Type</p>
-      <p class="details">Delivery Status</p>
-      <p class="details">District</p>
-      <p class="details">Division</p>
-    </div>
-
-    <div class="details-tiles">
-      <p class="details">Name</p>
-      <p class="details">Branch Type</p>
-      <p class="details">Delivery Status</p>
-      <p class="details">District</p>
-      <p class="details">Division</p>
-    </div>
-
-    <div class="details-tiles">
-      <p class="details">Name</p>
-      <p class="details">Branch Type</p>
-      <p class="details">Delivery Status</p>
-      <p class="details">District</p>
-      <p class="details">Division</p>
-    </div>
-
-    <div class="details-tiles">
-      <p class="details">Name</p>
-      <p class="details">Branch Type</p>
-      <p class="details">Delivery Status</p>
-      <p class="details">District</p>
-      <p class="details">Division</p>
-    </div>
-
-    <div class="details-tiles">
-      <p class="details">Name</p>
-      <p class="details">Branch Type</p>
-      <p class="details">Delivery Status</p>
-      <p class="details">District</p>
-      <p class="details">Division</p>
-    </div>
-
-    <div class="details-tiles">
-      <p class="details">Name</p>
-      <p class="details">Branch Type</p>
-      <p class="details">Delivery Status</p>
-      <p class="details">District</p>
-      <p class="details">Division</p>
-    </div>
+    <!-- post offices are added here dynamically throgh JS after fetching data from the api -->
+    <!-- <div class="details-tiles ${post_office_name.toLowerCase()} ${post_office_branch.toLowerCase()}">
+    <p class="details">Name: <span id="post_office_name">${post_office_name}</span> </p>
+    <p class="details">Branch Type: <span id="post_office_branch">${post_office_branch}</span></p>
+    <p class="details">Delivery Status: <span id="post_office_delivery">${post_office_delivery}</span></p>
+    <p class="details">District: <span id="post_office_district">${post_office_district}</span></p>
+    <p class="details">Division: <span id="post_office_division">${post_office_division}</span></p>
+  </div> -->
   </div>
 
   <script src="location.js"></script>
