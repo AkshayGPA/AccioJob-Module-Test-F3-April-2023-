@@ -51,7 +51,7 @@ function dispPostOff(post_office_name, post_office_branch, post_office_delivery,
 
 // ***************************************************** //
 
-fetch(`https://ipinfo.io/${ipAdd}/geo?token=2f12b9591109d8`)
+fetch(`https://ipinfo.io/${ipAdd}/geo?token=12e4a7b96dca7c`)
   .then(response => response.json())
   .then((data) => {
     [lat, long] = data.loc.split(',');
